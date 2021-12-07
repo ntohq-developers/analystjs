@@ -1,18 +1,29 @@
 {
-  "name": "@ntohq-developers/analyst.js",
-  "version": "1.0.0",
-  "description": "AnalystJs is a node package that helps developers use the analyst api",
-  "keywords": ["Analyst", "API", "node", "yarn", "stocks", "ml"],
-  "main": "main.js",
-  "repository": "https://github.com/ntohq-developers/analystjs.git",
-  "author": "ntohq-developers <github@ntohq.dev> ntohq.com",
-  "contributors": [
+   "name": "@ntohq-developers/analyst.js",
+   "version": "1.0.0",
+   "description": "AnalystJs is a node package that helps developers use the analyst api",
+   "keywords": [
+      "Analyst",
+      "API",
+      "node",
+      "yarn",
+      "stocks",
+      "ml"
+   ],
+   "main": "main.js",
+   "repository": "https://github.com/ntohq-developers/analystjs.git",
+   "git":"https://github.com/ntohq-developers/analystjs.git",
+   "author": "ntohq-developers <github@ntohq.dev> ntohq.com",
+   "contributors": [
       "ntohq  <wesleyford@ntohq.dev> ntohq.dev",
       "Sergix <hello@sergix.dev> sergix.dev"
    ],
-   "files": ["index.js", "util/*.js"],
-  "license": "MIT",
-  "publishConfig": {
-      "@ntohq-developers:registry": "https://npm.pkg.github.com"
+   "files": [
+      "index.js",
+      "util/*.js"
+   ],
+   "license": "MIT",
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
    }
 }
