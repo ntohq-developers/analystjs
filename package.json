@@ -1,5 +1,5 @@
 {
-  "name": "analyst.js",
+  "name": "@ntohq-developers/analyst.js",
   "version": "1.0.0",
   "description": "AnalystJs is a node package that helps developers use the analyst api",
   "keywords": ["Analyst", "API", "node", "yarn", "stocks", "ml"],
@@ -11,5 +11,8 @@
       "Sergix <hello@sergix.dev> sergix.dev"
    ],
    "files": ["index.js", "util/*.js"],
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+      "@ntohq-developers:registry": "https://npm.pkg.github.com"
+   }
 }
